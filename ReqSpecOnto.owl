@@ -1,0 +1,2349 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/usmanahmed/ontologies/2018/4/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/usmanahmed/ontologies/2018/4/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/usmanahmed/ontologies/2018/4/untitled-ontology-7#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="ReqsOnto" IRI="http://www.semanticweb.org/usmanahmed/ontologies/2018/4/untitled-ontology-7#"/>
+    <Declaration>
+        <Class IRI="#Accessibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accountability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accuracy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adaptability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Admin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Appropriateness_Recognizability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Architectural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Authenticity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autonomous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Availability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calendar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capacity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Composable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conceptual_Model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confidentiality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Context"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Context_Boundary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Convenience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Customer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deadline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discoverability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distribution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Execution_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Existing_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fault_Tolerance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forecast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functional_Appropriateness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functional_Completeness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functional_Correctness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functional_Requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functional_Suitability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Individual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Installability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Installation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Integrity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Learnability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loosely_Coupled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maturity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modeling_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-Functional_Requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Repudiation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Order"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Payment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Portability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Privacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Project_Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality_of_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recoverability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reliability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Replaceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Report"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Request"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requirements_Analyst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource_Utilization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Response_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Safety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service_Interoperability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_Developer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_Requirements_Specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specification_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stakeholder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stateless"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supplier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Throughput"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time_Behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Usability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Error_Protection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Interface_Aesthetics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Variability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#View"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Workflow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CanAddNotesTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CanApprove"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CanAssess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CanBe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CanBeA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CanConfigure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CanDrillDownFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CanEstablishDueDatesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CanPersonalizeIts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CanReportInto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CanSee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CanSelect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ConsistsOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasInfluenceOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasRequirement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasSource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasView"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#InteractsWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsFoundIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsSpecifiedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PerSecurityLevelCanSee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#develops"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#elicits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#incorporates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#states"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#action_postcondition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#action_precondition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#business_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#estimated_completion_time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#experience"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#functional_priority"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#non-function_priority"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#order_status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#payment_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#platforms"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price_in_dollars"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#programming_language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#requirement_priority"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#source_location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#source_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#system_domain"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#time_in_seconds"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bottlenecks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calendar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Current_Status"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dashboard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fermilab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fermilab_BPS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Forecasts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hierarchical_Data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Identity_Domain_Administrator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lab-Level_Planning_Activities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Login_Screen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Next_Steps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Portal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Power_User"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Project_Planning_Activities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reports"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Resource_Request"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sections_Planning_Activities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Security_Role"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Service_Administrator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_View"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#View_User"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Workflow"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accessibility"/>
+        <Class IRI="#Usability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accountability"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accuracy"/>
+        <Class IRI="#Quality_of_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Functional_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Actor"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adaptability"/>
+        <Class IRI="#Portability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Admin"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Appropriateness_Recognizability"/>
+        <Class IRI="#Usability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Architectural"/>
+        <Class IRI="#Non-Functional_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Authenticity"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autonomous"/>
+        <Class IRI="#Architectural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Availability"/>
+        <Class IRI="#Reliability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calendar"/>
+        <Class IRI="#Functional_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capacity"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Composable"/>
+        <Class IRI="#Architectural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conceptual_Model"/>
+        <Class IRI="#Modeling_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confidentiality"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Context"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Context_Boundary"/>
+        <Class IRI="#Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Convenience"/>
+        <Class IRI="#User_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cost"/>
+        <Class IRI="#Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Customer"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deadline"/>
+        <Class IRI="#Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Development"/>
+        <Class IRI="#Non-Functional_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Device_Interaction"/>
+        <Class IRI="#Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discoverability"/>
+        <Class IRI="#Architectural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distribution"/>
+        <Class IRI="#Architectural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Document"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Execution_Time"/>
+        <Class IRI="#Time_Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Existing_System"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fault_Tolerance"/>
+        <Class IRI="#Reliability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forecast"/>
+        <Class IRI="#Functional_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional_Appropriateness"/>
+        <Class IRI="#Functional_Suitability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional_Completeness"/>
+        <Class IRI="#Functional_Suitability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional_Correctness"/>
+        <Class IRI="#Functional_Suitability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional_Requirement"/>
+        <Class IRI="#Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional_Suitability"/>
+        <Class IRI="#Quality_of_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Individual"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Installability"/>
+        <Class IRI="#Portability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Installation"/>
+        <Class IRI="#Architectural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Integrity"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interface"/>
+        <Class IRI="#Quality_of_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Learnability"/>
+        <Class IRI="#Usability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loosely_Coupled"/>
+        <Class IRI="#Architectural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maturity"/>
+        <Class IRI="#Reliability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modeling_Language"/>
+        <Class IRI="#Specification_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Language"/>
+        <Class IRI="#Specification_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non-Functional_Requirement"/>
+        <Class IRI="#Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Repudiation"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operability"/>
+        <Class IRI="#Usability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Order"/>
+        <Class IRI="#Functional_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Payment"/>
+        <Class IRI="#Functional_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Performance"/>
+        <Class IRI="#Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Performance"/>
+        <Class IRI="#Quality_of_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portability"/>
+        <Class IRI="#Quality_of_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Privacy"/>
+        <Class IRI="#Quality_of_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Project_Manager"/>
+        <Class IRI="#Supplier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality_of_Service"/>
+        <Class IRI="#Non-Functional_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recoverability"/>
+        <Class IRI="#Reliability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reliability"/>
+        <Class IRI="#Quality_of_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Replaceability"/>
+        <Class IRI="#Portability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Report"/>
+        <Class IRI="#Functional_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Request"/>
+        <Class IRI="#Functional_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requirement"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requirements_Analyst"/>
+        <Class IRI="#Supplier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resource"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resource_Utilization"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Response_Time"/>
+        <Class IRI="#Time_Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Safety"/>
+        <Class IRI="#Quality_of_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security"/>
+        <Class IRI="#Quality_of_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service_Interoperability"/>
+        <Class IRI="#Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software_Developer"/>
+        <Class IRI="#Supplier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software_Requirements_Specification"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Space"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stakeholder"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stateless"/>
+        <Class IRI="#Architectural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supplier"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Status"/>
+        <Class IRI="#Functional_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Throughput"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time_Behavior"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Usability"/>
+        <Class IRI="#Quality_of_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Usability"/>
+        <Class IRI="#User_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Error_Protection"/>
+        <Class IRI="#Usability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Interaction"/>
+        <Class IRI="#Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Interface_Aesthetics"/>
+        <Class IRI="#Usability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Variability"/>
+        <Class IRI="#Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#View"/>
+        <Class IRI="#Functional_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Workflow"/>
+        <Class IRI="#Functional_Requirement"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Performance"/>
+        <NamedIndividual IRI="#Bottlenecks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calendar"/>
+        <NamedIndividual IRI="#Calendar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#System_Status"/>
+        <NamedIndividual IRI="#Current_Status"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#View"/>
+        <NamedIndividual IRI="#Dashboard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organization"/>
+        <NamedIndividual IRI="#Fermilab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#System"/>
+        <NamedIndividual IRI="#Fermilab_BPS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Functional_Requirement"/>
+        <NamedIndividual IRI="#Forecasts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data"/>
+        <NamedIndividual IRI="#Hierarchical_Data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Functional_Requirement"/>
+        <NamedIndividual IRI="#Hierarchical_Data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Admin"/>
+        <NamedIndividual IRI="#Identity_Domain_Administrator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#Lab-Level_Planning_Activities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#View"/>
+        <NamedIndividual IRI="#Login_Screen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#Next_Steps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User"/>
+        <NamedIndividual IRI="#Planner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#View"/>
+        <NamedIndividual IRI="#Portal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Admin"/>
+        <NamedIndividual IRI="#Power_User"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#Project_Planning_Activities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Report"/>
+        <NamedIndividual IRI="#Reports"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Request"/>
+        <NamedIndividual IRI="#Resource_Request"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#Sections_Planning_Activities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Security"/>
+        <NamedIndividual IRI="#Security_Role"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Admin"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#View"/>
+        <NamedIndividual IRI="#User_View"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User"/>
+        <NamedIndividual IRI="#View_User"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Workflow"/>
+        <NamedIndividual IRI="#Workflow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#name"/>
+            <Datatype abbreviatedIRI="xsd:Name"/>
+        </DataAllValuesFrom>
+        <AnonymousIndividual nodeID="_:genid2147483682"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Identity_Domain_Administrator"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#incorporates"/>
+        <NamedIndividual IRI="#Calendar"/>
+        <NamedIndividual IRI="#Lab-Level_Planning_Activities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#incorporates"/>
+        <NamedIndividual IRI="#Calendar"/>
+        <NamedIndividual IRI="#Project_Planning_Activities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#incorporates"/>
+        <NamedIndividual IRI="#Calendar"/>
+        <NamedIndividual IRI="#Sections_Planning_Activities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsFoundIn"/>
+        <NamedIndividual IRI="#Hierarchical_Data"/>
+        <NamedIndividual IRI="#Reports"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanApprove"/>
+        <NamedIndividual IRI="#Identity_Domain_Administrator"/>
+        <NamedIndividual IRI="#Resource_Request"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <NamedIndividual IRI="#Identity_Domain_Administrator"/>
+        <NamedIndividual IRI="#Security_Role"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <NamedIndividual IRI="#Identity_Domain_Administrator"/>
+        <NamedIndividual IRI="#User_View"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanSee"/>
+        <NamedIndividual IRI="#Identity_Domain_Administrator"/>
+        <NamedIndividual IRI="#Resource_Request"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PerSecurityLevelCanSee"/>
+        <NamedIndividual IRI="#Identity_Domain_Administrator"/>
+        <NamedIndividual IRI="#Forecasts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Identity_Domain_Administrator"/>
+        <NamedIndividual IRI="#Security_Role"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanAddNotesTo"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#Workflow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanAssess"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#Bottlenecks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanAssess"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#Current_Status"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanAssess"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#Next_Steps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanDrillDownFrom"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#Hierarchical_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanPersonalizeIts"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#User_View"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanSee"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#Workflow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanSelect"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#Reports"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PerSecurityLevelCanSee"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#Forecasts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#Security_Role"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#User_View"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanDrillDownFrom"/>
+        <NamedIndividual IRI="#Power_User"/>
+        <NamedIndividual IRI="#Hierarchical_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanSelect"/>
+        <NamedIndividual IRI="#Power_User"/>
+        <NamedIndividual IRI="#Reports"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PerSecurityLevelCanSee"/>
+        <NamedIndividual IRI="#Power_User"/>
+        <NamedIndividual IRI="#Forecasts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Power_User"/>
+        <NamedIndividual IRI="#Security_Role"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Power_User"/>
+        <NamedIndividual IRI="#User_View"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanAddNotesTo"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Workflow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanAssess"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Bottlenecks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanAssess"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Current_Status"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanAssess"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Next_Steps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanDrillDownFrom"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Hierarchical_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanEstablishDueDatesIn"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Calendar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanSee"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Workflow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanSelect"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Reports"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PerSecurityLevelCanSee"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Forecasts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Security_Role"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#User_View"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConsistsOf"/>
+        <NamedIndividual IRI="#User_View"/>
+        <NamedIndividual IRI="#Dashboard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConsistsOf"/>
+        <NamedIndividual IRI="#User_View"/>
+        <NamedIndividual IRI="#Login_Screen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConsistsOf"/>
+        <NamedIndividual IRI="#User_View"/>
+        <NamedIndividual IRI="#Portal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanDrillDownFrom"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#Hierarchical_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanSelect"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#Reports"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PerSecurityLevelCanSee"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#Forecasts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#Security_Role"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#User_View"/>
+    </ObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanApprove"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#Resource_Request"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#Security_Role"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#User_View"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanSee"/>
+        <NamedIndividual IRI="#Planner"/>
+        <NamedIndividual IRI="#Resource_Request"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <NamedIndividual IRI="#Power_User"/>
+        <NamedIndividual IRI="#Security_Role"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <NamedIndividual IRI="#Power_User"/>
+        <NamedIndividual IRI="#User_View"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanApprove"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Resource_Request"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Security_Role"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#User_View"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanSee"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <NamedIndividual IRI="#Resource_Request"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanAddNotesTo"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#Workflow"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanApprove"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#Resource_Request"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanAssess"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#Bottlenecks"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanAssess"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#Current_Status"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#Security_Role"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#User_View"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanEstablishDueDatesIn"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#Calendar"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanSee"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#Resource_Request"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#CanSee"/>
+        <NamedIndividual IRI="#View_User"/>
+        <NamedIndividual IRI="#Workflow"/>
+    </NegativeObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Identity_Domain_Administrator"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Planner"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Power_User"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Service_Administrator"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#View_User"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
+        <Literal>osmaanahmed@yahoo.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
+        <Literal>usmanahmed@dreamxoft.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
+        <Literal>Usman Ahmed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
+        <Literal>osmaanahmed@yahoo.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
+        <Literal>usmanahmed@dreamxoft.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#PerSecurityLevelCanSee"/>
+        <ObjectProperty IRI="#CanSee"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CanAddNotesTo"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CanApprove"/>
+        <Class IRI="#Admin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CanAssess"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CanBe"/>
+        <Class IRI="#Requirement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CanBeA"/>
+        <Class IRI="#Source"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <Class IRI="#Admin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CanEstablishDueDatesIn"/>
+        <Class IRI="#Admin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CanEstablishDueDatesIn"/>
+        <Class IRI="#Customer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CanPersonalizeIts"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CanSee"/>
+        <Class IRI="#Admin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CanSelect"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ConsistsOf"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasInfluenceOn"/>
+        <Class IRI="#Requirements_Analyst"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasInfluenceOn"/>
+        <Class IRI="#Stakeholder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasSource"/>
+        <Class IRI="#Requirement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasView"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#InteractsWith"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsA"/>
+        <Class IRI="#Individual"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsA"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsFoundIn"/>
+        <Class IRI="#Requirement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsSpecifiedIn"/>
+        <Class IRI="#Software_Requirements_Specification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PerSecurityLevelCanSee"/>
+        <Class IRI="#Admin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PerSecurityLevelCanSee"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#develops"/>
+        <Class IRI="#Software_Developer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#elicits"/>
+        <Class IRI="#Requirements_Analyst"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#incorporates"/>
+        <Class IRI="#Functional_Requirement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#states"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#states"/>
+        <Class IRI="#Customer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanAddNotesTo"/>
+        <Class IRI="#Workflow"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanApprove"/>
+        <Class IRI="#Request"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanAssess"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanAssess"/>
+        <Class IRI="#Performance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanAssess"/>
+        <Class IRI="#System_Status"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanBe"/>
+        <Class IRI="#Functional_Requirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanBe"/>
+        <Class IRI="#Non-Functional_Requirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanBeA"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanBeA"/>
+        <Class IRI="#Customer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanBeA"/>
+        <Class IRI="#Document"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanBeA"/>
+        <Class IRI="#Existing_System"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <Class IRI="#Security"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanConfigure"/>
+        <Class IRI="#View"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanEstablishDueDatesIn"/>
+        <Class IRI="#Software_Requirements_Specification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanPersonalizeIts"/>
+        <Class IRI="#View"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanSee"/>
+        <Class IRI="#Request"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CanSelect"/>
+        <Class IRI="#Report"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ConsistsOf"/>
+        <Class IRI="#Context"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ConsistsOf"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasInfluenceOn"/>
+        <Class IRI="#Requirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasSource"/>
+        <Class IRI="#Source"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasView"/>
+        <Class IRI="#View"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#InteractsWith"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsA"/>
+        <Class IRI="#Customer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsFoundIn"/>
+        <Class IRI="#Software_Requirements_Specification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsSpecifiedIn"/>
+        <Class IRI="#Specification_Language"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PerSecurityLevelCanSee"/>
+        <Class IRI="#Forecast"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#develops"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#elicits"/>
+        <Class IRI="#Requirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#Requirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#System_Status"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#View"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#incorporates"/>
+        <Class IRI="#Functional_Requirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#incorporates"/>
+        <Class IRI="#Non-Functional_Requirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#states"/>
+        <Class IRI="#Requirement"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#functional_priority"/>
+        <DataProperty IRI="#requirement_priority"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#non-function_priority"/>
+        <DataProperty IRI="#requirement_priority"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#action_postcondition"/>
+        <Class IRI="#Action"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#action_precondition"/>
+        <Class IRI="#Action"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#address"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Individual"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Project_Manager"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Requirements_Analyst"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Software_Developer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#business_type"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#date"/>
+        <Class IRI="#Deadline"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#email"/>
+        <Class IRI="#Actor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#email"/>
+        <Class IRI="#Customer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#email"/>
+        <Class IRI="#Supplier"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#estimated_completion_time"/>
+        <Class IRI="#System"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#experience"/>
+        <Class IRI="#Project_Manager"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#experience"/>
+        <Class IRI="#Requirements_Analyst"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#experience"/>
+        <Class IRI="#Software_Developer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#functional_priority"/>
+        <Class IRI="#Functional_Requirement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#gender"/>
+        <Class IRI="#Individual"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Customer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Supplier"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#System"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#non-function_priority"/>
+        <Class IRI="#Non-Functional_Requirement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#order_status"/>
+        <Class IRI="#Order"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#payment_type"/>
+        <Class IRI="#Payment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#platforms"/>
+        <Class IRI="#Portability"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price_in_dollars"/>
+        <Class IRI="#Cost"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#programming_language"/>
+        <Class IRI="#System"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requirement_priority"/>
+        <Class IRI="#Requirement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#source_location"/>
+        <Class IRI="#Source"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#source_name"/>
+        <Class IRI="#Source"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#system_domain"/>
+        <Class IRI="#Software_Developer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#system_domain"/>
+        <Class IRI="#System"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#time_in_seconds"/>
+        <Class IRI="#Execution_Time"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#time_in_seconds"/>
+        <Class IRI="#Response_Time"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weight"/>
+        <Class IRI="#Functional_Suitability"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weight"/>
+        <Class IRI="#Performance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weight"/>
+        <Class IRI="#Portability"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weight"/>
+        <Class IRI="#Reliability"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weight"/>
+        <Class IRI="#Security"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weight"/>
+        <Class IRI="#Usability"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#action_postcondition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#action_precondition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#business_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#estimated_completion_time"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#experience"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#functional_priority"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#gender"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#non-function_priority"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#order_status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#payment_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#platforms"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#price_in_dollars"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#programming_language"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#requirement_priority"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#source_location"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#source_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#system_domain"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#time_in_seconds"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <AnonymousIndividual nodeID="_:genid-nodeid-8"/>
+        </Annotation>
+        <DataProperty IRI="#weight"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Accessibility</IRI>
+        <Literal>Degree to which a product or system can be used by people with the widest range of characteristics and
+capabilities to achieve a specified goal in a specified context of use.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Accountability</IRI>
+        <Literal>Degree to which the actions of an entity can be traced uniquely to the entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Accuracy</IRI>
+        <Literal>The capability of the software product to provide the right or agreed results or effects with the needed
+degree of precision.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Actor</IRI>
+        <Literal>Also known as a Actor. Any person, a system or a technical device in the context of a system that interacts with the system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Actor</IRI>
+        <Literal>User</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Adaptability</IRI>
+        <Literal>Degree to which a product or system can effectively and efficiently be adapted for different or evolving
+hardware, software or other operational or usage environments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Admin</IRI>
+        <Literal>Usually a person having more controls over end user.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Appropriateness_Recognizability</IRI>
+        <Literal>Degree to which users can recognize whether a product or system is appropriate for their needs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Architectural</IRI>
+        <Literal>Constraints related to the system architecture.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Authenticity</IRI>
+        <Literal>Degree to which the identity of a subject or resource can be proved to be the one claimed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Availability</IRI>
+        <Literal>Degree to which a product or system is operational and accessible when required for use.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Capacity</IRI>
+        <Literal>Degree to which the maximum limits of the product or system, parameter meet requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Conceptual_Model</IRI>
+        <Literal>Also known as simply, Model. An abstract representation of an existing reality or a reality to be created.
+In Requirements Engineering, requirements can be specified by models. They can be used along with natural language to remove ambiguities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Confidentiality</IRI>
+        <Literal>Degree to which the prototype ensures that data are accessible only to those authorized to have access.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Context</IRI>
+        <Literal>Also, System Context. The part of system&apos;s environment being relevant for understanding system and its requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Context_Boundary</IRI>
+        <Literal>Boundary between the context of a system and those parts of application domain that are irrelevant for the system and its requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Deadline</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483679"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Development</IRI>
+        <Literal>Development process related constraints.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Execution_Time</IRI>
+        <Literal>The execution time or CPU time of a given task is defined as the time spent by the system executing that task, including the time spent executing run-time or system services on its behalf.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fault_Tolerance</IRI>
+        <Literal>Degree to which a system, product or component operates as intended despite the presence of hardware
+or software faults.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Functional_Appropriateness</IRI>
+        <Literal>Degree to which the functions facilitate the accomplishment of specified tasks and objectives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Functional_Completeness</IRI>
+        <Literal>Degree to which the set of functions covers all the specified tasks and user objectives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Functional_Correctness</IRI>
+        <Literal>Degree to which the functions provides the correct results with the needed degree of precision.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Functional_Requirement</IRI>
+        <Literal>A requirement concerning the result of behavior that shall be provided by a function of a system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Functional_Suitability</IRI>
+        <Literal>This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hardware</IRI>
+        <Literal>The physical components or devices of a system that perform input, processing, data storage and output.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Identity_Domain_Administrator</IRI>
+        <Literal>This role creates users and assigns user roles. (Fermilab Role: Technical Administrator)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Installability</IRI>
+        <Literal>Degree of effectiveness and efficiency in which a product or system can be successfully installed and/or
+uninstalled in a specified environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Integrity</IRI>
+        <Literal>Degree to which a system, product or component prevents unauthorized access to, or modification of,
+computer programs or data.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Learnability</IRI>
+        <Literal>Degree to which a product or system enables the user to learn how to use it with effectiveness, efficiency
+in emergency situations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Maturity</IRI>
+        <Literal>Degree to which a system, product or component meets needs for reliability under normal operation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Modeling_Language</IRI>
+        <Literal>A language for expressing models of a certain kind. May be textual, graphic, symbolic or some combination thereof.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Natural_Language</IRI>
+        <Literal>Language that is easily understood and used for communication by humans.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Non-Functional_Requirement</IRI>
+        <Literal>A quality requirement or a constraint.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Non_Repudiation</IRI>
+        <Literal>Degree to which actions or events can be proven to have taken place, so that the events or actions
+cannot be repudiated later.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Operability</IRI>
+        <Literal>Degree to which a product or system is easy to operate, control and appropriate to use.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Performance</IRI>
+        <Literal>Performance or Performance Efiiciency (or sometimes used as Performance Effectiveness).
+This characteristic represents the performance relative to the amount of resources used under stated requirements or conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Planner</IRI>
+        <Literal>End Users input Planning data into Hyperion Planning via Web Forms and access the data via Hyperion reporting tools (Financial Reports and Smart View).  (Fermilab Role: FFMs, Project Managers, Department Managers, B&amp;R Owners. May Also include a subset of Senior Management responsible for approving budgets.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Portability</IRI>
+        <Literal>Degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware, software or other operational or usage environment to another.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Power_User</IRI>
+        <Literal>Power User write Business Rules (calculations), create reports, enter and modify data entries and adjustments for appropriate groups.  (Fermilab Role: Budget Office)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Privacy</IRI>
+        <Literal>Privacy is the faculty and right that a person has to define, preserve and control the boundaries that limit the extent to which the rest of society can interact with or intrude upon. At the same time, he or she retains full control over information generated by, and related to, him or her.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Project_Manager</IRI>
+        <Literal>Software Project Manager has the responsibility of the planning, procurement and execution of a software project, in any undertaking that has a defined scope, defined start and a defined finish; regardless of industry.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Quality_of_Service</IRI>
+        <Literal>QoS or Product related Non Functional Requirements.
+These are the desired characteristics of a given service, product or system running independetly and also while being integrated with other services at run-time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recoverability</IRI>
+        <Literal>Degree to which, in the event of an interruption or a failure, a product or system can recover the data
+directly affected and re-establish the desired state of the system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Reliability</IRI>
+        <Literal>Degree to which a system, product or component performs specified functions under specified conditions for a specified period of time. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Replaceability</IRI>
+        <Literal>Degree to which a product can replace another specified software product for the same purpose in the
+same environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Requirement</IRI>
+        <Literal>A need preceived by a stakeholder.
+A capability or property that a system will provide.
+A documented representation of a need, capability or property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Requirements_Analyst</IRI>
+        <Literal>Requirements Analyst also known as Requirements Engineer is a person who - in collaboration with stakeholders - elicits, documents (specifies), validates and manages requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Requirements_Analyst</IRI>
+        <Literal>Requirements_Engineer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Resource</IRI>
+        <Literal>A resource or system resource is any of the internal computer components. In general, a resource is any hardware or software that is accessible by the computer, network or other object connected to a computer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Resource_Request</IRI>
+        <Literal>Requests for the resources required in the lab.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Resource_Utilization</IRI>
+        <Literal>Degree to which the amounts and types of resources used by a product or system, when performing its
+functions, meet requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Response_Time</IRI>
+        <Literal>Response time is the total amount of time it takes to respond to a request for service.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Safety</IRI>
+        <Literal>The capability of a system to acheive an acceptable level of probability that operating the system will not result in harming people, property or the environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Security</IRI>
+        <Literal>Degree to which a product or system protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Service_Administrator</IRI>
+        <Literal>This role can perform all functional activities of the Power User, Planner and View User as well as all application maintenance. Application maintenance includes, but is not limited to, ensuring dimensionality is aligned within source systems, maintaining data forms, business rules, and reports. This Service Administrator also ensures metadata is kept in sync between the Hyperion Applications.  (Fermilab Role: System Administrator, Technical Administrator)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Software</IRI>
+        <Literal>Set of programs, instructions that coordinates the activities and functions of hardware and other programs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Software_Developer</IRI>
+        <Literal>A software developer is a person concerned with facets of the software development process, including the research, design, programming, and testing of computer software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Software_Requirements_Specification</IRI>
+        <Literal>A requirements specification pertaining to a software system. Abbreviation: SRS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Software_Requirements_Specification</IRI>
+        <Literal>SRS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Source</IRI>
+        <Literal>Represents the source of a particular Requirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Specification_Language</IRI>
+        <Literal>An artificial language that has been created for expressing specifications. Defines the way in which requirements are specified in SRS.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stakeholder</IRI>
+        <Literal>A person or organization that has a (direct or indirect) influence on a system&apos;s requirements</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Supplier</IRI>
+        <Literal>A person or organization who delivers a product or service to a customer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#System</IRI>
+        <Literal>It&apos;s a coherent, delimitable set of components (hardware, software) that - by coordinated action - provides services.
+Note: A system may comprise other systems. Therefore, components or services of a system are also considered to be systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Throughput</IRI>
+        <Literal>Throughput is the maximum rate of production or the maximum rate at which something can be processed.
+In communications network, it is the rate of successful message delivery over a communication channel.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Time_Behavior</IRI>
+        <Literal>Degree to which the response and processing times and throughput rates of a product or system, when
+performing its functions, meet requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#User</IRI>
+        <Literal>End User</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#User_Error_Protection</IRI>
+        <Literal>Degree to which a product or system protects users against making errors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#User_Interface_Aesthetics</IRI>
+        <Literal>Degree to which a user interface enables pleasing and satisfying interaction for the user.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#View_User</IRI>
+        <Literal>Read-Only users access the applications for reporting and analysis purposes using Financial Reports and Smart View.  (Fermilab Role: Division &amp; Section Heads, Senior Management)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estimated_completion_time</IRI>
+        <Literal>The estimated completion time for the system to be developed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#platforms</IRI>
+        <Literal>Defines the platforms on which the developed system can be installed and trasferred.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#programming_language</IRI>
+        <Literal>Programming language or languages required to develop the software system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#system_domain</IRI>
+        <Literal>The domain of the system to develop. e.g., Android, Web App, Desktop, Networks, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#weight</IRI>
+        <Literal>Weight to be assigned to each non functional requirement. Value can lie anywhere between 0 and 1. i.e. [0-1]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>rdfs:comment</AbbreviatedIRI>
+        <Literal>ReqSpecOnto is the Software Requirements Specification Ontology which defines the basic RE concepts and classes with their relationships and constraints. This is an upper or base ontology which provides the basis for any system&apos;s requirements specification. The software requirements of any given system can be specified by creating it&apos;s instance or individuals. It aims to replace the ambiguous paper-based SRS with Ontology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>rdfs:isDefinedBy</AbbreviatedIRI>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>rdfs:label</AbbreviatedIRI>
+        <Literal>ReqSpecOnto - Software Requriement Specification Ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <AbbreviatedIRI>owl:versionInfo</AbbreviatedIRI>
+        <Literal>Also consists of the Domain Ontology or instance ontology from the upper ReqSpecOnto.
+Instance Ontology corresponds to the Budget &amp; Planning System (BPS) of Physics and Accelerator Laboratory, Fermilab.
+This version models 10 of their different randomly sampled complex FRs, NFRs and Constraints.</Literal>
+    </AnnotationAssertion>
+    <DatatypeDefinition>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+        </DataOneOf>
+    </DatatypeDefinition>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
